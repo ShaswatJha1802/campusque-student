@@ -1,0 +1,1 @@
+# campusque-student
