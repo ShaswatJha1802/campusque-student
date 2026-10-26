@@ -3,7 +3,7 @@
    SUPABASE CLIENT – loaded from CDN
    ------------------------------------------------------------------ */
 // Replace the placeholder values with the ones you copied from the Supabase UI.
-const SUPABASE_URL = "https://supabase.com/dashboard/project/vcejagdoozytgczgrngp/settings/api-keys/legacy";   // ← paste URL
+const SUPABASE_URL = "https://supabase.com/dashboard/project/vcejagdoozytgczgrngp/settings/api-keys/legacy";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZjZWphZ2Rvb3p5dGdjemdybmdwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI5MjIyMjksImV4cCI6MjEwODQ5ODIyOX0.lLDxjIgx_fvp3yURbj6ip8kX3y0K4CqtPAA4wlAWYn8";           // ← paste key
 
 // Load the Supabase JavaScript SDK lazily (only once per page load).
@@ -30,7 +30,6 @@ function initSupabase() {
   // Subscribe to INSERT/UPDATE/DELETE events for live sync.
   subscribeToOrders();
 }
-
 const TRANSLATIONS = {
   en: {
     shop_sub: "College Print Hub",
